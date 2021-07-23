@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+header {
+  background-color: rgb(44, 49, 49);
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  padding: 1rem;
+  width: 90%;
+  margin: auto;
+  min-height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: antiquewhite;
+  transition: ease-in-out 0.5s;
+}
+nav a:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+nav h1 {
+  flex: 3;
+  color: antiquewhite;
+}
+nav ul {
+  flex: 1;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+header .alert {
+  background-color: yellowgreen;
+  align-items: center;
+  color: black;
+  text-align: center;
+  font-size: 1.6rem;
+}
+header .alert a {
+  text-decoration: none;
+  color: antiquewhite;
+  transition: ease-in-out 0.5s;
+}
+header .alert a:hover {
+  background-color: yellowgreen;
+  color: black;
+}
+.main-back {
+  display: flex;
+  min-height: 90vh;
+  background-image: url(../img/onlineshop.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+button {
+  background-color: antiquewhite;
+  color: rgb(44, 49, 49);
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+  border: none;
+}
+button:hover {
+  background-color: rgb(44, 49, 49);
+  color: antiquewhite;
+}
+.intro-text {
+  color: white;
+  font-size: 4.8rem;
+}
+.shop-button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+#form {
+  display: none;
+  width: 50%;
+}
+.formele {
+  border-radius: 5px;
+  flex: 1;
+}
+.URL {
+  flex: 2;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+.about-back {
+  height: 90vh;
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.about-us {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.about-text {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: justify;
+}
+p {
+  font-size: 1.6rem;
+}
+.img-gallery {
+  flex: 1;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-gallery img {
+  padding: 2rem;
+}
+.graph-photo {
+  height: 300px;
+  width: 400px;
+  margin: auto;
+}
+.aamche-photo {
+  display: flex;
+  justify-content: space-around;
+}
+.mandar {
+  text-align: center;
+}
+.prathamesh {
+  text-align: center;
+}
+.aamche-photo img {
+  height: 200px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  aspect-ratio: 14/16;
+}
+footer {
+  height: 10vh;
+  background-color: rgb(44, 49, 49);
+  align-items: center;
+}
+footer h2 {
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: antiquewhite;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 2rem;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
